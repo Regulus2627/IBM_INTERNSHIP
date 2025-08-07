@@ -51,6 +51,25 @@ The best-performing model was a **Random Forest Classifier**, selected based on 
 
 ---
 
+## 🔐 API Key Usage (Security Best Practice)
+
+> ⚠ *DO NOT hardcode your IBM API Key in the notebook.*
+
+Instead, use secure input as shown below:
+
+```python
+import getpass
+api_key = getpass.getpass("Please enter your api key (press enter): ")
+
+---
+
+##🧪 How to Run the Notebook
+
+git clone https://github.com/Regulus2627/IBM_INTERNSHIP.git
+cd IBM_INTERNSHIP
+
+---
+
 ## 🚀 Deployment
 
 The model was trained and evaluated within IBM Watson Studio.  
